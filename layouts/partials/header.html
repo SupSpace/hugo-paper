@@ -1,12 +1,20 @@
 <header class="header">
   {{ if .IsHome }}
-  <h1 class="logo">
-    <a class="site-name" href="{{ `` | absURL }}">{{ site.Title }}</a><a class="btn-dark"></a>
-  </h1>
+  <div class="site">
+    <a class="site_logo" href="/"><img src="{{ `logo.png` | absURL }}"></a>
+    <div class="site_info">
+        <h1><a href="/">Music Mate</a></h1>
+        <p>Music connects us</p>
+    </div>
+  </div>
   {{ else }}
-  <p class="logo">
-    <a class="site-name" href="{{ `` | absURL }}">{{ site.Title }}</a><a class="btn-dark"></a>
-  </p>
+  <div class="site">
+    <a class="site_logo" href="/"><img src="{{ `logo.png` | absURL }}"></a>
+    <div class="site_info">
+        <h1><a href="/">Music Mate</a></h1>
+        <p>Music connects us</p>
+    </div>
+  </div>
   {{ end }}
 
   <script>

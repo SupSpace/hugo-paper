@@ -1,1 +1,9 @@
 /* Place custom css here. */
+.site {
+    display: flex;
+    align-items: center;
+}
+.site_logo {
+    margin-right: 10px;
+    flex-shrink: 0;
+}

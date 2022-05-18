@@ -217,6 +217,7 @@ img {
 .menu {
   display: flex;
   overflow: auto;
+  padding-left: 5rem;
 }
 
 .menu a + a {
