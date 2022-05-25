@@ -1,5 +1,4 @@
 <header class="header">
-  {{ if .IsHome }}
   <div class="site">
     <a class="site_logo" href="/"><img src="{{ `logo.png` | absURL }}"></a>
     <div class="site_info">
@@ -7,15 +6,6 @@
         <p>Music connects us</p>
     </div>
   </div>
-  {{ else }}
-  <div class="site">
-    <a class="site_logo" href="/"><img src="{{ `logo.png` | absURL }}"></a>
-    <div class="site_info">
-        <h1><a href="/">Music Mate</a></h1>
-        <p>Music connects us</p>
-    </div>
-  </div>
-  {{ end }}
 
   {{ $url := .RelPermalink }}<!---->
   {{ with site.Menus.main }}
