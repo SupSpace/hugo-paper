@@ -7,6 +7,7 @@
     </div>
   </div>
 
+  <div id="menuHeader">
   {{ $url := .RelPermalink }}<!---->
   {{ with site.Menus.main }}
   <nav class="menu">
@@ -15,6 +16,7 @@
     {{ end }}
   </nav>
   {{ end }}<!---->
+  </div>
 
   {{ with $.Scratch.Get "social-list" }}
   <nav class="social">
