@@ -7,16 +7,14 @@
     </div>
   </div>
 
-  <div class="menu" id="menuHeader">
-  {{ $url := .RelPermalink }}<!---->
+  {{ $url := .RelPermalink }}
   {{ with site.Menus.main }}
   <nav class="menu">
     {{ range . }}
     <a class="{{ if eq .URL $url }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
   </nav>
-  {{ end }}<!---->
-  </div>
+  {{ end }}
 
   {{ with $.Scratch.Get "social-list" }}
   <nav class="social">

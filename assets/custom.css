@@ -2,6 +2,7 @@
 .site {
     display: flex;
     align-items: center;
+    padding-right: 5rem;
 }
 .site_logo {
     margin-right: 10px;
