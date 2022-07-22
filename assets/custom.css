@@ -8,6 +8,9 @@
     margin-right: 10px;
     flex-shrink: 0;
 }
+.app-subtitle {
+    font-size: 1.6rem;
+}
 
 /* landing page */
 
