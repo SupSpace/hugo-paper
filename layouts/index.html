@@ -1,0 +1,39 @@
+{{ define "main" }}
+    <div class="showcase-area">
+        <div class="left">
+            <div class="big-title">
+                <h1>All about music,</h1>
+                <h1>in one place.</h1>
+            </div>
+            <p class="text">
+                Uncover the backstory of your favorite song. Explore the songs people are listening to. And more surprises!
+            </p>
+            <div class="cta">
+                <img href="https://apps.apple.com/app/music-mate-for-apple-music/id1605379758" src="{{ `black.svg` | absURL }}" />
+            </div>
+        </div>
+        <div class="right">
+            <img src="{{ `mm-hand.png` | absURL }}" alt="Music Mate app" class="musicmate" />
+        </div>
+    </div>
+    <div class="detail-grid">
+        <div class="detail-grid-item">
+            <p class="detail-title">See who's listening the same song</p>
+            <p class="caption">
+                You can find the music lovers around you and which songs they're listening to.
+            </p>
+        </div>
+        <div class="detail-grid-item">
+            <p class="detail-title">Discerning episodes</p>
+            <p class="caption">
+                Get to know the backstory of your favorite song. We deliver episode periodically, with a good taste.
+            </p>
+        </div>
+        <div class="detail-grid-item">
+            <p class="detail-title">Widget that you love</p>
+            <p class="caption">
+                You can even see others directly on your iPhone home screen.
+            </p>
+        </div>
+    </div>
+{{ end }}
