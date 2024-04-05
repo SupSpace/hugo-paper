@@ -171,6 +171,7 @@ textarea:-webkit-autofill {
 img {
   display: block;
   max-width: 100%;
+  -webkit-touch-callout: default;
 }
 
 /* Header
