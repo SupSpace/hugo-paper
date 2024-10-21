@@ -1,37 +1,3 @@
 {{ define "main" }}
-<h1 class="title-404">404</h1>
-<div class="button-container">
-    <button onclick="openInApp()">Open in Music Mate app</button>
-    <a href="https://apps.apple.com/app/musicmate-music-map-friends/id1605379758" class="button" target="_blank">Download app</a>
-</div>
-
-<script>
-function openInApp() {
-    window.open(window.location.href, '_blank');
-}
-</script>
-
-<style>
-.button-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-button, .button {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.button:hover, button:hover {
-    background-color: #0056b3;
-}
-</style>
+<h1 class="title-404">点击右上角->在默认浏览器中打开</h1>
 {{ end }}
